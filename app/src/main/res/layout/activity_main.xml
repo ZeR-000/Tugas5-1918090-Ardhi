@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/bg4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="No Alarm Set"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="46dp"/>
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="36dp"
+        android:background="#88B0FF"
+        android:drawableLeft="@drawable/alarm"
+        android:text="Select Time"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="8dp"
+        android:background="#88B0FF"
+        android:drawableLeft="@drawable/cancel"
+        android:text="Cancel Alarm"
+        android:textSize="26dp" />
+
+</LinearLayout>
